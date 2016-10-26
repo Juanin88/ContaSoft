@@ -9,6 +9,11 @@ import org.jdom.JDOMException;    // |/ JDOM
 import org.jdom.Namespace;
 import org.jdom.input.SAXBuilder; // |
 
+/**
+ * 
+ * @author LenovoY50
+ *
+ */
 public class LeerXML {
 	public void cargarXml()
 	{
