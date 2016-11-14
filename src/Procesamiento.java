@@ -1,10 +1,9 @@
+import java.io.IOException;
 
 public class Procesamiento {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hola Mundo!");
-		
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub		
 		LeerXML leerXML = new LeerXML();
 		
 		leerXML.cargarXml();
@@ -21,7 +20,7 @@ public class Procesamiento {
 		System.out.println("Saludo");
 		
 		Object alInstante = new Object(){
-			@SuppressWarnings({ "null", "null", "deprecation" })
+			@SuppressWarnings({ })
 			public String interno(){
 				System.out.println("Clase al vuelo");
 				return "Regresa la cadena";
@@ -36,8 +35,4 @@ public class Procesamiento {
 		
 		return 0;
 	}
-	
-	
-	
-
 }
